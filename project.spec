@@ -58,10 +58,10 @@ fi
 
 
 %changelog
-* Mon Mar 13 2017 Mike Denison <michael.denison@c4xdiscovery.com> 1.3.0-1
+* Mon Mar 13 2017 Jonathan Holmes <jonathan.holmes@c4xdiscovery.com> 1.3.0-1
 Trying remove multiple version
-* Mon Mar 13 2017 Mike Denison <michael.denison@c4xdiscovery.com> 1.1.0-1
+* Mon Mar 13 2017 Jonathan Holmes <jonathan.holmes@c4xdiscovery.com> 1.1.0-1
 This is an updated version, due to C4X_11188 which used conf, a current patch has been added, 
 where the config is now added, but does not have a crystal mode
-* Mon Mar 13 2017 Mike Denison <michael.denison@c4xdiscovery.com> 1.0.0-1
+* Mon Mar 13 2017 Jonathan Holmes <jonathan.holmes@c4xdiscovery.com> 1.0.0-1
 This is a working script, which is now for wider testing
