@@ -1,0 +1,4 @@
+#!/bin/bash
+/usr/bin/python /usr/share/Crystal_splice/argument_passer_SDF.py $@
+exit $?
+
