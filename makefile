@@ -14,7 +14,7 @@ all: release debug
 
 ARCHIVE:=/var/tmp/${NAME}.tar.gz
 EXCLUDE:=--exclude-vcs --exclude-backups --exclude '*~' \
-         --exclude './Versions' --exclude './test_data' --exclude './test_data' --exclude './Backup'  --exclude './Readme*s'
+         --exclude './versions' --exclude './test_data' --exclude './backup' --exclude './non_combined'
 archive: clean
 	tar -chzf ${ARCHIVE} ${EXCLUDE} . --transform=s%^\\.%${NAME}-${VERSION}%
 

@@ -1,6 +1,6 @@
 Name: Crystal_splice
 # version is also in makefile and Version.txt
-Version: 1.3.0
+Version: 1.3.1
 License: C4X
 %{!?buildnumber:%define buildnumber 1}
 Release: %{?buildnumber}%{?dist}
@@ -8,7 +8,7 @@ BuildArch: noarch
 Group: Productivity/Scientific/Chemistry
 Summary: This is the Crystal splice script, which allows for modes to be inserted into base of different torsion
 Requires: python bash 
-BuildRequires: make bash
+BuildRequires: make bash python
 URL: http://dna.conformetrix.com/helpconsole6/Software%20Manuals/default.aspx#pageid=%{name}
 Source: %{name}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
@@ -58,6 +58,8 @@ fi
 
 
 %changelog
+* Fri Jun 30 2017 Jonathan Holmes <jonathan.holmes@c4xdiscovery.com> 1.3.1-1
+Fixing folder structure
 * Mon Mar 13 2017 Jonathan Holmes <jonathan.holmes@c4xdiscovery.com> 1.3.0-1
 Trying remove multiple version
 * Mon Mar 13 2017 Jonathan Holmes <jonathan.holmes@c4xdiscovery.com> 1.1.0-1
@@ -65,3 +67,4 @@ This is an updated version, due to C4X_11188 which used conf, a current patch ha
 where the config is now added, but does not have a crystal mode
 * Mon Mar 13 2017 Jonathan Holmes <jonathan.holmes@c4xdiscovery.com> 1.0.0-1
 This is a working script, which is now for wider testing
+
